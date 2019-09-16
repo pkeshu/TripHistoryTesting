@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "trips": [
+    {
+      "source_address": "Kantipath, Kathmandu, Nepal",
+      "destination_address": "New Baneshwor, Kathmandu, Nepal",
+      "total": 340,
+      "provider_id": "123123123",
+      "payment_mode": 2,
+      "is_trip_completed": 1,
+      "is_trip_cancelled": 0,
+      "accepted_time": null,
+      "_id": null
+    },
+    {
+      "source_address": "Kantipath, Kathmandu, Nepal",
+      "destination_address": "New Baneshwor, Kathmandu, Nepal",
+      "total": 340,
+      "provider_id": "123123123",
+      "payment_mode": 2,
+      "is_trip_completed": 1,
+      "is_trip_cancelled": 0,
+      "accepted_time": null,
+      "_id": null
+    }
+  ]
+}

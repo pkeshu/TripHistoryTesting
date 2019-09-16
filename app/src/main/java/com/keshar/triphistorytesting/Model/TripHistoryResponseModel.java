@@ -15,6 +15,9 @@ public class TripHistoryResponseModel {
     @Expose
     private List<Trips> trips;
 
+    public TripHistoryResponseModel() {
+    }
+
     public TripHistoryResponseModel(boolean success, List<Trips> trips) {
         this.success = success;
         this.trips = trips;

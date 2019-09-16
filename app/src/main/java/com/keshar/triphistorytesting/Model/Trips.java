@@ -36,13 +36,13 @@ public class Trips {
     @IsDefine
     @SerializedName("accepted_time")
     @Expose
-    private Long acceptedTime;
+    private String acceptedTime;
     @IsDefine
     @SerializedName("_id")
     @Expose
-    private Long id;
+    private String id;
 
-    public Trips(String sourceAddress, String destinationAddress, Long total, String providerId, int paymentMode, int isTripCompleted, int isTripCancel, Long acceptedTime, Long id) {
+    public Trips(String sourceAddress, String destinationAddress, Long total, String providerId, int paymentMode, int isTripCompleted, int isTripCancel, String acceptedTime, String id) {
         this.sourceAddress = sourceAddress;
         this.destinationAddress = destinationAddress;
         this.total = total;
@@ -82,11 +82,11 @@ public class Trips {
         return isTripCancel;
     }
 
-    public Long getAcceptedTime() {
+    public String getAcceptedTime() {
         return acceptedTime;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 }

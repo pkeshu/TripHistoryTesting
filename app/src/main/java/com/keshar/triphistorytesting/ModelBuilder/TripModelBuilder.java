@@ -12,8 +12,8 @@ public class TripModelBuilder {
     private int paymentMode;
     private int isTripCompleted;
     private int isTripCancel;
-    private Long acceptedTime;
-    private Long id;
+    private String acceptedTime;
+    private String id;
 
     public TripModelBuilder setSourceAddress(String sourceAddress) {
         this.sourceAddress = sourceAddress;
@@ -50,12 +50,12 @@ public class TripModelBuilder {
         return this;
     }
 
-    public TripModelBuilder setAcceptedTime(Long acceptedTime) {
+    public TripModelBuilder setAcceptedTime(String acceptedTime) {
         this.acceptedTime = acceptedTime;
         return this;
     }
 
-    public TripModelBuilder setId(Long id) {
+    public TripModelBuilder setId(String id) {
         this.id = id;
         return this;
     }

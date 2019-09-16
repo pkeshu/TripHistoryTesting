@@ -12,8 +12,8 @@ public class ModelValidatorTest {
     @Test
     public void shouldNotThrowErrorOnValidTripsModel() throws IllegalArgumentException {
         TripModelBuilder builder = new TripModelBuilder();
-        builder.setId(1l);
-        builder.setAcceptedTime(20550829l);
+        builder.setId(null);
+        builder.setAcceptedTime(null);
         builder.setDestinationAddress("New Baneshwor, Kathmandu, Nepal");
         builder.setSourceAddress("Kantipath, Kathmandu, Nepal");
         builder.setIsTripCancel(0);
